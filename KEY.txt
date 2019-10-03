@@ -1,0 +1,23 @@
+PS C:\Users\pablo> keytool -exportcert -keystore C:\Users\pablo\.android\debug.keystore -list -v
+Introduzca la contraseña del almacén de claves:
+
+Tipo de Almacén de Claves: JKS
+Proveedor de Almacén de Claves: SUN
+
+Su almacén de claves contiene 1 entrada
+
+Nombre de Alias: androiddebugkey
+Fecha de Creación: 02/07/2019
+Tipo de Entrada: PrivateKeyEntry
+Longitud de la Cadena de Certificado: 1
+Certificado[1]:
+Propietario: C=US, O=Android, CN=Android Debug
+Emisor: C=US, O=Android, CN=Android Debug
+Número de serie: 1
+Válido desde: Tue Jul 02 18:21:44 UYT 2019 hasta: Thu Jun 24 18:21:44 UYT 2049
+Huellas digitales del Certificado:
+         MD5: 77:3B:01:12:9C:A0:CF:0F:64:86:F6:88:2F:C2:1B:84
+         SHA1: DF:F3:FF:C9:B4:C7:D0:FF:79:1A:C7:32:8E:06:85:B3:93:39:53:37
+         SHA256: 28:5A:91:C7:34:E4:4A:91:E7:95:C2:FD:58:D1:D1:11:C8:DF:CC:45:2A:3D:86:9A:BC:98:D1:D8:CA:C2:E8:E5
+         Nombre del Algoritmo de Firma: SHA1withRSA
+         Versión: 1
